@@ -1,0 +1,166 @@
+html
+{
+    background-color: black;
+}
+
+p,ul
+{
+ 
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+}
+h2
+{
+    font-weight: bold;
+    text-decoration: underline dashed white;
+
+    color: blueviolet;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.albert {
+    display: flex;
+    gap: 100px;
+    align-items: center; /* Center items vertically */
+    padding: 20px;
+}
+
+.pic {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-right: 20px; /* Add some space between image and heading */
+}
+
+.al{
+    font-weight: bolder;
+    font-size: 150px;
+    text-align: center;
+    margin: 0; /* Remove default margin from h1 */
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    
+}
+footer
+{
+    font-weight: bolder;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size:25px ;
+    text-align: center;
+}
+.hyper
+{   font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    color: gold;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+    line-height: 50px;
+    align-items: center;
+}
+span
+{
+    font-weight: bolder;
+    font-size: 25px;
+    color: gold;
+}
+.social-icons{
+	padding:30px;
+	
+  text-align: center;
+}
+.social-icons a{
+	color:#fff;
+  line-height:30px;
+  font-size:30px;
+  margin: 0 5px;
+  text-decoration:none;
+  
+}
+.social-icons a i{
+	line-height:30px;
+  font-size:30px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+.social-icons a:hover i{
+  box-shadow: 0px 0px 150px ;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
+h4
+{
+    font-weight: bolder;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size:25px ;
+    text-align: center;
+    margin-bottom: 0;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+    
+    .albert {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 0;
+    }
+    
+    .pic {
+        margin-top: 20px;
+        width: 250px;
+        height: 250px;
+        margin-bottom: 0;
+    }
+    
+    .al {
+    font-weight: bolder;
+        font-size: 80px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    
+    .hyper {
+        line-height: 30px;
+    }
+    .fourth >*
+    {
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 28px;
+    }
+    span
+{
+    font-weight: bolder;
+}
+
+}
